@@ -1,0 +1,54 @@
+.note {
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .note-text {
+    font-size: 18px;
+  }
+  
+  .note-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .note-form input {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+  
+  .note-form button {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .note-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  
+  .note button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right:8px;
+  }
+  
+  .note button:hover {
+    background-color: #3e8e41;
+  }
+  
